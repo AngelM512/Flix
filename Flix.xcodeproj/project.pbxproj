@@ -16,6 +16,7 @@
 		8190522D27B09D18005F2B66 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190522C27B09D18005F2B66 /* FlixTests.swift */; };
 		8190523727B09D18005F2B66 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190523627B09D18005F2B66 /* FlixUITests.swift */; };
 		8190523927B09D18005F2B66 /* FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190523827B09D18005F2B66 /* FlixUITestsLaunchTests.swift */; };
+		8190524627B0B73F005F2B66 /* MovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190524527B0B73F005F2B66 /* MovieCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8190523227B09D18005F2B66 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190523627B09D18005F2B66 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		8190523827B09D18005F2B66 /* FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8190524527B0B73F005F2B66 /* MovieCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8190521727B09D17005F2B66 /* SceneDelegate.swift */,
 				8190521927B09D17005F2B66 /* ViewController.swift */,
 				8190521B27B09D17005F2B66 /* Main.storyboard */,
+				8190524527B0B73F005F2B66 /* MovieCellTableViewCell.swift */,
 				8190521E27B09D18005F2B66 /* Assets.xcassets */,
 				8190522027B09D18005F2B66 /* LaunchScreen.storyboard */,
 				8190522327B09D18005F2B66 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				8190521A27B09D17005F2B66 /* ViewController.swift in Sources */,
 				8190521627B09D17005F2B66 /* AppDelegate.swift in Sources */,
+				8190524627B0B73F005F2B66 /* MovieCellTableViewCell.swift in Sources */,
 				8190521827B09D17005F2B66 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
