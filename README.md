@@ -23,7 +23,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img width="605" alt="Screen Shot 2022-02-10 at 6 25 18 PM" src="https://user-images.githubusercontent.com/37674133/153519549-6b540f14-4d1a-4345-98e6-b9e60256efbb.png">
+
 
 ### Notes
 Describe any challenges encountered while building the app: installing packages in xcode was a new experience. "Pod init" did not work in my terminal, 
