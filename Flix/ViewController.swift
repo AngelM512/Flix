@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -52,7 +53,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell.title.text = (movie["title"] as! String)
         cell.synpsisLabel.text = (movie["overview"] as! String)
-        //cell.synpsisLabel.text = (movie["details"] as! String)
+        
+        let baseURL = "https://images.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as! String
+        let posterURL = URL(string: baseURL + posterPath)
+        
+        cell.posterView.af_setImage(withURL: posterURL!)
+        
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
