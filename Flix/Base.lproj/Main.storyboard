@@ -53,6 +53,7 @@
                                             <outlet property="posterView" destination="fzi-ka-Dly" id="qKg-pi-Z1I"/>
                                             <outlet property="synpsisLabel" destination="7gq-je-f9w" id="yCh-17-G1h"/>
                                             <outlet property="title" destination="dbq-yV-BKc" id="KFb-oC-prV"/>
+                                            <segue destination="BhB-mb-u8h" kind="show" id="O35-Fj-a2u"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -69,6 +70,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="863.768115942029" y="138.61607142857142"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="wJ7-ld-m13">
+            <objects>
+                <viewController id="BhB-mb-u8h" customClass="DetailViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="40O-mU-jPH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pJW-AD-b3K"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Iy-34-nVD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdu-Tz-an8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WDS-Sw-jhe">

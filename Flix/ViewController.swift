@@ -38,8 +38,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     // TODO: Reload your table view data
                  self.movies = dataDictionary["results"] as! [[String:Any]]
                  self.tableView.reloadData()
-                 print("movies stored= ", movies)
-
              }
         
         }
@@ -65,7 +63,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
-
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        let detailViewController = segue.destination as! DetailViewController
+        detailViewController.movie = movie
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
 }
 
