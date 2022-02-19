@@ -21,12 +21,6 @@ https://user-images.githubusercontent.com/37674133/154789918-0c837901-1ece-4dfb-
 
 
 
-
-### Notes
-Describe any challenges encountered while building the app.
-
-
-
 ---
 
 #### REQUIRED (10pts)
