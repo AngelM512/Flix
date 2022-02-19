@@ -29,6 +29,7 @@ class DetailViewController: UIViewController {
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
         
+        
         let baseURL = "https://images.tmdb.org/t/p/w185"
         
         let posterPath = movie["poster_path"] as! String
